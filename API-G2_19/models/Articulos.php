@@ -47,7 +47,7 @@
          $sql = $conectar->prepare($sql);
          $sql->bindValue(1, $id);
          $sql->execute();
-         return $resultado=$sql->fetchAll(PDO::FETCH_ASSOC);   
+        
      }
 
      public function update_articulo($ID,$DESCRIPCION,$UNIDAD,$COSTO,$PRECIO,$APLICA_ISV,$PORCENTAJE_ISV,$ESTADO,$ID_SOCIO){
