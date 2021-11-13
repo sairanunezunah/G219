@@ -1,0 +1,2 @@
+# G2_19
+se válido que cambiaron la forma de asignar los parametros en los metodos update e inserter usando BindParam en vez de BindValue, esto no esta mal y si les funciono esta bien aplciado 
